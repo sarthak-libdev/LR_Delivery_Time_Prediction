@@ -22,27 +22,4 @@ data has information about the orders, such as item quantity and order amount; i
 the store, such as category, distance from customer and market ID; and operational information,
 such as the number of delivery partners.
 Content
-The dataset consists of multiple observations, each representing data for a specific order, with the
-following key attributes:
-Column Name Description
-market_id ID of the market where the restaurant is located.
-created_at The timestamp when the order was placed.
-actual_delivery_time The timestamp when the order was delivered.
-store_primary_category The category of the restaurant (e.g., fast food or dine-in).
-order_protocol The integer code indicating how the order was placed (e.g., via
-Porter or call to restaurant).
-total_items The total number of items in the order.
-subtotal The total price of the order.
-num_distinct_items The number of distinct items in the order.
-min_item_price The price of the cheapest item in the order.
-max_item_price The price of the most expensive item in the order.
-iLinear Regression Assignment:
-Parcel Delivery Time Estimation
-Assignment ID: LR/02
-Total Marks: 100
-total_onshift_dashers The number of delivery partners on duty at the time the order
-was placed.
-total_busy_dashers The number of delivery partners already attending to other tasks.
-total_outstanding_orders The number of outstanding orders to be fulfilled at the time the
-order was placed.
-distance The total distance from the restaurant to the customer.
+The dataset consists of multiple observations, each representing data for a specific order, with th
